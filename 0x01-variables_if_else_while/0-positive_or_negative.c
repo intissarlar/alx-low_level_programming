@@ -1,34 +1,88 @@
-/*
-* File: 0-positive_or_negative.c
-* Auth: intissarlaraji
-*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/**
- * main - Enty point
- * 
- * Description: 'the program's description'
- * @parameter: describe the parameter
- * 
- * Return: Always 0 (success)
- */ 
-
 
 int main(void)
 {
-	int n;
+    int n;
 
-	srand(time(0));
-        n= rand() - RAND_MAX / 2;
-        if (n > 0)
-                printf("ad is positive\n", n);
-        else if (n< 0)
-                printf("ed is negative\n", n);
-        else
-                printf("\d is zero\n", n);
+    srand(time(0)); // Seed the random number generator
 
-        return (0);
+    n = rand() - RAND_MAX / 2; // Generate a random number
+
+    if (n > 0)
+    {
+        printf(« %d is positive\n », n);
+    }
+    else if (n < 0)
+    {
+        printf(« %d is negative\n », n);
+    }
+    else
+    {
+        printf(« 0 is zero\n »);
+    }
+
+    return (0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             
+
+    
+       
+  
+
+
 
 
 
